@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <!--配置DispatcherServlet：这是SpringMVC的核心；请求分发器，前端控制器-->
+  <servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!--DispatcherServlet要绑定SpringMVC的配置文件-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springmvc-servlet.xml</param-value>
+    </init-param>
+    <!--启动级别-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!--在SpringMVC中，/跟/*是有区别的
+    / ：只匹配所有的请求，不会匹配jsp页面
+    /*：匹配所有的请求，包括jsp页面
+  -->
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
