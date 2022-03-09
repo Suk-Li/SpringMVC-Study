@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringMVC-02-HelloMVC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMVC-02-HelloMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC-03-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC-03-Annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC-05-JSON/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC-05-JSON/src/main/resources" charset="UTF-8" />
   </component>
 </project>

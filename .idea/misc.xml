@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Spring-02-HelloMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-02-HelloMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-03-Annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC-05-JSON" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

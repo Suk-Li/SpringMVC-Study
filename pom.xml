@@ -12,6 +12,7 @@
         <module>SpringMVC-01-Servlet</module>
         <module>SpringMVC-02-HelloMVC</module>
         <module>SpringMVC-03-Annotation</module>
+        <module>SpringMVC-05-JSON</module>
     </modules>
 
     <properties>
@@ -49,7 +50,11 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
 
     </dependencies>
 
